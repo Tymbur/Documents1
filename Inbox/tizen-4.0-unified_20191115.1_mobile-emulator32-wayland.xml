@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<image arch="i686">
+  <partition aft_fstype="None" cpioopts="None" exclude_image="None" extopts="None" fslabel="emulator-rootfs" fsopts="None" fstype="ext4" init_expand="False" kspart="part / --fstype=&quot;ext4&quot; --ondisk=sda --size=2000 --bytes-per-inode=4096 --label=emulator-rootfs --uuid=4c510118-dd9d-4d75-b147-0fc4fe656152
+" label="emulator-rootfs" mountpoint="/" name="emulator-rootfs.img" no_shrink="False" size="2000" squashfsopts="None" uuid="None" vdfsopts="None"/>
+  <partition aft_fstype="None" cpioopts="None" exclude_image="None" extopts="None" fslabel="emulator-sysdata" fsopts="None" fstype="ext4" init_expand="False" kspart="part /opt/ --fstype=&quot;ext4&quot; --ondisk=sda --size=2000 --bytes-per-inode=4096 --label=emulator-sysdata --uuid=d263a0e9-bc42-41fc-8922-8128b2352ef2
+" label="emulator-sysdata" mountpoint="/opt" name="emulator-sysdata.img" no_shrink="False" size="2000" squashfsopts="None" uuid="None" vdfsopts="None"/>
+</image>
